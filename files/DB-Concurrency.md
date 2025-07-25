@@ -85,7 +85,8 @@ if we are going to change value of existing variable:
 ---
 ## transaction states 
 
-![[transaction-state.png]]
+![transaction state](imgs/transaction-state.png)
+
 
 ---
 ## system logs 
@@ -149,7 +150,8 @@ if we are going to change value of existing variable:
 ### schedule types :
 #### recoverable & non recoverable :
 
-![[recoverability.png]]
+![recoverability](imgs/recoverability.png)
+
 #### cascading rollback & cascade less :
 
 1. cascading rollback : means that if T1 writes on item x and T2 reads it. if T1 aborted, T2 will also be aborted .
